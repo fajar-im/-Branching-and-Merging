@@ -2,7 +2,7 @@
 $host = 'localhost';
 $user = 'root';
 $password = '';
-$database = 'pemweb_db';
+$database = 'pemweb-db';
 
 $conn = new mysqli($host, $user, $password, $database);
 
