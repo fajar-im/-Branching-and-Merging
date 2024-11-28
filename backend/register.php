@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($stmt->execute()) {
         echo "Registrasi berhasil!";
-        header('Location: ./login.php');
+        header('Location: login.php');
     } else {
         echo "Error: " . $stmt->error;
     }
