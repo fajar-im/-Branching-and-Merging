@@ -7,7 +7,8 @@ if (isset($_POST['email']) || isset($_POST['password'])) {
         header('Location: ./../dashboard.php');
         exit();
     } else {
-        echo 'Email atau password salah';
+        // Menampilkan pesan error dengan Bootstrap alert
+        echo '<div class="alert alert-danger" role="alert">Email atau password salah!</div>';
     }
 }
 ?>
